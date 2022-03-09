@@ -335,7 +335,7 @@ bool EglManager::swapBuffers(const Frame& frame, const SkRect& screenDirty) {
         fence();
     }
 	
-	eglSwapBuffers(mEglDisplay, frame.mSurface); 		
+    eglSwapBuffers(mEglDisplay, frame.mSurface); 		
 
     EGLint err = eglGetError();
     if (CC_LIKELY(err == EGL_SUCCESS)) {
