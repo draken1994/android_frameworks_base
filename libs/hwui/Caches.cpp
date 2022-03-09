@@ -85,8 +85,7 @@ bool Caches::init() {
 void Caches::initExtensions() {
 	eventMark = eventMarkNull;
 	startMark = startMarkNull;
-	endMark = endMarkNull;
-	
+	endMark = endMarkNull;	
 }
 
 void Caches::initConstraints() {
